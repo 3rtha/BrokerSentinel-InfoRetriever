@@ -31,5 +31,37 @@ git clone https://github.com/your_username/BrokerSentinel.git
  ```
 HTML_Data_Extractor.py
  ```
+4. Sample Data Looks Like :
+   ```
+   {
+        "Broker_name": "CryptoRocket  ",
+        "Country": " Saint Vincent and the Grenadines",
+        "AgeOfBusiness": "2-5 years",
+        "LicenseStatus": "Suspicious Regulatory License",
+        "Scope of Business": "N/A",
+        "PlatformStatus": "MT4/5 White Label",
+        "Website_link": "https://www.cryptorocket.com/",
+        "Rating": "Danger",
+        "ContactNumbers": [
+            "N/A"
+        ],
+        "Company_Name": "CryptoRocket Limited",
+        "Warning": "It has been verified that this broker currently has no valid regulation. Please be aware of the risk!",
+        "OverallScore": "1.48",
+        "License_Index": "0.00",
+        "Business_Index": "6.77",
+        "Risk_Management_Index": "0.00",
+        "Software_Index": "4.00",
+        "Regulatory_Index": "0.00",
+        "Email_address": "N/A"
+    },
+## Contributing
+We welcome contributions from the community. If you have ideas for improvement or find any issues, please open an issue or submit a pull request.
 
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+WikiFX for providing valuable broker information.
+Our open-source community for their support and contributions.
 
