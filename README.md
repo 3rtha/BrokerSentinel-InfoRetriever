@@ -7,7 +7,7 @@ BrokerSentinel is a comprehensive web scraping and data analysis tool designed t
 ## Features
 
 - **Broker Database:** Compile a curated list of brokers from the MetaTrader platform and online sources.
-- **Web Scraping:** Fetch HTML content from broker profiles using their domain names and download the HTML pages locally.
+- **Web Scraping:** Fetch HTML content from WikiFX broker profiles using their domain names and download the HTML pages locally.
 - **Data Extraction:** Extract and structure essential data fields from the downloaded HTML Page content.
 - **JSON Storage:** Store the organized data in JSON format for further analysis.
 
