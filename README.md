@@ -20,7 +20,7 @@ The forex and cryptocurrency markets are complex and ever-changing. BrokerSentin
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/your_username/BrokerSentinel.git
+git clone https://github.com/3rtha/BrokerSentinel.git
 ```
 2. Utilize the Python script to download the HTML pages of brokers by employing their domain names.
   ```
@@ -54,6 +54,11 @@ HTML_Data_Extractor.py
         "Regulatory_Index": "0.00",
         "Email_address": "N/A"
     },
+   ```
+5. Analyzing Broker Distribution by Country and Its Relationship with Ratings
+   ```
+   Countrywise_Rating_Stats.py
+   ```
 ## Contributing
 We welcome contributions from the community. If you have ideas for improvement or find any issues, please open an issue or submit a pull request.
 
