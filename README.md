@@ -8,8 +8,8 @@ BrokerSentinel is a comprehensive web scraping and data analysis tool designed t
 ## Features
 
 - **Broker Database:** Compile a curated list of brokers from the MetaTrader platform and online sources.
-- **Web Scraping:** Fetch HTML content from broker profiles using their domain names.
-- **Data Extraction:** Extract and structure essential data fields from the HTML content.
+- **Web Scraping:** Fetch HTML content from broker profiles using their domain names and download the HTML pages locally.
+- **Data Extraction:** Extract and structure essential data fields from the downloaded HTML Page content.
 - **JSON Storage:** Store the organized data in JSON format for further analysis.
 
 ## Why BrokerSentinel?
@@ -22,3 +22,14 @@ The forex and cryptocurrency markets are complex and ever-changing. BrokerSentin
 
 ```bash
 git clone https://github.com/your_username/BrokerSentinel.git
+```
+2. Utilize the Python script to download the HTML pages of brokers by employing their domain names.
+  ```
+ Download_Brokers_WikiFX_HTML_Page.py
+```
+3. From the downloaded HTML Pages of the brokers - extract the data fields such as Broker_name, Email, Country, AgeofBusiness, LicenseStatus, Scope of business, Platform Status, Website_link, Rating, Contact_Number, Company Name, Warning, OverallScore, License Index, Business_index, Risk_Manegement_Index, Software_index, Regulatory_index, Email_address
+ ```
+HTML_Data_Extractor.py
+ ```
+
+
